@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaura Bhattarai – Biography</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to right, #f3f8ff, #d0e6ff);
+      display: flex; justify-content: center; align-items: center;
+      min-height: 100vh;
+    }
+    .bio-card {
+      background: #fff; max-width: 600px; padding: 30px;
+      border-radius: 18px; box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .profile-img {
+      width: 150px; height: 150px; border-radius: 50%;
+      object-fit: cover; border: 5px solid #007bff;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 30px; color: #2d2d2d; margin-bottom: 10px; }
+    h3 { font-size: 18px; color: #666; margin-bottom: 20px; }
+    p {
+      font-size: 16px; color: #444; line-height: 1.6;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bio-card">
+    <!-- make sure gaura.png is in the same directory as this HTML file -->
+    <img src="https://scontent.fdhi1-1.fna.fbcdn.net/v/t1.6435-9/70480539_521236771964311_6074262553268060160_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7_ktMnw8o2oQ7kNvwFHiHd3&_nc_oc=AdmdbgqGrNLXheeS9dEQGSjmHplz25X1aeZVh94L-1BQ4_bDxINB_ddkoyqJjl3iP0by7HL9zqnTOyQ0lC6XoEFd&_nc_zt=23&_nc_ht=scontent.fdhi1-1.fna&_nc_gid=CNtL5jnlh4wUk2iakE926A&oh=00_AfKNFV7JiFpMHdifZ_qs2ihW84OxPIa9WYw3h_GhdKUjdQ&oe=6853A861" alt="Gaura Bhattarai" class="profile-img" />
+
+    <h1>Gaura Bhattarai</h1>
+    <h3>Housewife | Kathmandu, Nepal</h3>
+
+    <p>
+      Gaura Bhattarai is a kind‐hearted and devoted housewife residing in Kathmandu.
+      Her days are spent creating a warm and peaceful home filled with love and care.
+    </p>
+
+    <p>
+      She is admired for her traditional cooking, gentle personality, and her
+      ability to support everyone in the family selflessly. Her strength lies in
+      her consistency, grace, and quiet determination.
+    </p>
+  </div>
+</body>
+</html>
